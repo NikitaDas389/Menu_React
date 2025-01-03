@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+}
+.header{
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+}
+.menu{
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    background-color: #dfe8e8;
+    line-height: 40px;
+}
+.menu li {
+    display: inline;
+    margin-right: 15px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+.footer{
+    position:fixed;
+    bottom:0;
+    width:100%;
+}
