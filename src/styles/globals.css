@@ -24,3 +24,7 @@ body{
     bottom:0;
     width:100%;
 }
+.active_menu{
+    color: red;
+    text-shadow: 2px 2px 2px white;
+}
