@@ -3,20 +3,23 @@ import Link from "next/link";
 
 export const Menu = () => {
   const [menuItem, setMenuItem] = useState("");
+
   useEffect(() => {
-    let pathName = window.location.pathname;
-    setMenuItem(pathName.slice(1) || "home");
+    let pathname = window.location.pathname;
+    setMenuItem(pathname.slice(1) || "home");
   }, []);
+
   const fnMenuClik = (eve) => {
     setMenuItem(eve.target.id);
   };
+
   return (
     <div>
       <ul className="menu">
         <li>
           <Link
-            id="Home"
-            className={menuItem == "Home" && "active_menu"}
+            id="home"
+            className={menuItem == "home" && "active_menu"}
             onClick={fnMenuClik}
             href="/home"
           >
