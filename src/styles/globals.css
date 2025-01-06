@@ -28,3 +28,32 @@ body{
     color: red;
     text-shadow: 2px 2px 2px white;
 }
+.mobile-menu-btn{
+    position: absolute;
+    right: 0px;
+    
+}
+.mobile-menu{
+    height: 200px;
+    width: 150px;
+    display: inline-block;
+    list-style-type: none;
+    background-color: #dfe8e8;
+    line-height: 30px;
+    position: absolute;
+    top: 45px;
+    transition: left 1s;
+}
+.mobile-menu > li{
+    font-weight: bold;
+    letter-spacing: 5px;
+
+}
+.close-btn{
+    position: absolute;
+    right: 0;
+    top: -10px;
+    font-weight: 400;
+    font-size: 25px;
+    cursor: pointer;
+}
